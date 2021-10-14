@@ -1,0 +1,23 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>S.B HighSchool</title>
+
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h2 class='text-center alert alert-danger'>S.B HighSchool, Aurangabad.</h2>
+        {% block content %}{% endblock content %}
+    </div>
+    <script src="{% static 'enroll/js/jquery.js' %}"></script>
+    <script src="{% static 'enroll/js/popper.js' %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+  </body>
+</html>
